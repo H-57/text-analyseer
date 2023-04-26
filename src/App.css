@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background:black;
-}
+
 .dark{
     background-color: antiquewhite;
     color: brown;

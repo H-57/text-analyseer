@@ -18,8 +18,8 @@ const togglemode=
 }
   return (
   <>
-<Navbar theme={theme} />
-<Textarea theme={theme} func={togglemode}/>
+<Navbar theme={theme} func={togglemode}/>
+<Textarea theme={theme} />
   </>
       
   )

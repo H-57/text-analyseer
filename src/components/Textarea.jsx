@@ -59,10 +59,10 @@ export default function Textarea(props) {
   };
 
   return (
-    <div className="container">
+    <div className={`container bg-${props.theme}`}>
       <textarea
         value={text}
-        className={`form-control my-3 ${props.theme} `}
+        className={`form-control my-10 ${props.theme} `}
         rows="10"
         onChange={handeltext}
         id="floatingTextarea2"
@@ -76,7 +76,7 @@ export default function Textarea(props) {
       <Button handel={clear} text="clear" />
       <Button handel={cleartext} text="clear text" />
       <Button handel={copy} text="copy text" />
-      <Button handel={props.func} text="mode change" />
+      {/* <Button handel={props.func} text="mode change" /> */}
       <textarea
         value={newtext}
         className={`form-control my-3 ${props.theme} `}
